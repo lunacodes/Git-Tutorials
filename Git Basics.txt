@@ -24,8 +24,10 @@ Then Follow These Steps:
 	git push origin master						Pushes (Sends) the files to the Remote's Origin on the Master Branch
 
 
+
 To make a copy of someone's code:
-git clone http://url.com 						Clone the contents of an Existing Repo
+	git clone http://url.com 						Clone the contents of an Existing Repo
+
 
 Notes:
 
