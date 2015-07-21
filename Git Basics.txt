@@ -1,0 +1,33 @@
+For Git Beginners, because Git can be Beyond Confusing when you first start:
+
+	Make A Repository in Github.com - Name it whatever you want
+
+	On your computer, create a New Folder & add your files to it (or create them in this folder)
+
+
+Then Follow These Steps:
+
+	git init                					Initializes Git (Tracker)
+
+	git add filename 							Adds File to the Tracker
+
+	git status -v 								Check that the files have been added & their Commit Status (they haven't been committed yet)
+
+	git commit -am "First Commit"				Puts the current version of the file in the tracker.  a stands for "All".  m stands for "Message".  Follow this flag with your "Message" in quotes.
+
+	git remote add origin http://url.com 		Creates the "Remote" (aka the URL of your Repository) so Git knows where to send your files.  Names it "Origin".  
+
+	git remote -v 								Check that the Remote was added
+
+	git pull origin master 						Grabs the Files from the Repo - You need to do this before you can Push
+
+	git push origin master						Pushes (Sends) the files to the Remote's Origin on the Master Branch
+
+
+To make a copy of someone's code:
+git clone http://url.com 						Clone the contents of an Existing Repo
+
+Notes:
+
+	In the future, you should git pull origin master prior to the other steps
+	You can have multiple Remotes & choose which one to send them to when you push/pull
